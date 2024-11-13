@@ -75,7 +75,37 @@ table {
 ul {  
   padding-top: 100px;
   list-style: none;
+  
 }
+#character-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+  
+  
+}
+li{
+  border: rgb(224, 223, 223) 2px solid;
+  padding: 10px;
+  margin-top: 10px;
+}
+img{
+  width: 250px;
+}
+#character-list h3::before {
+  content: "Name: ";
+  font-weight: bold;
+}
+#character-list h3::before {
+  content: "Name: ";
+  font-weight: bold;
+}
+#character-list p::before {
+  content: "Species: ";
+  font-weight: bold;
+}
+
 
 
 
